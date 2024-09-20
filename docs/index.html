@@ -1,152 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pelicula Favorita</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="./Practica4/styles2.css">
-</head>
-<body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">ToyStory</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#inicio">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#sinopsis">Sinopsis</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#personajes">Personajes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contacto">Redes Sociales</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Inicio Section -->
-<section id="inicio" class="py-5">
-  <div class="container text-center">
-    <h1>Toy Story</h1>
-    <p>Año: 1995 | País: USA | Estudio: Pixar Animation Studios | Género: Animación, Aventura, Comedia</p>
-    <p>Creadores: John Lassete, Andrew Stanton, Pete Docter, Joe Ranft</p>
-    
-    <img src="https://es.web.img3.acsta.net/pictures/14/03/17/10/20/509771.jpg" alt="Poster de la Película" class="img-fluid mb-4">
-
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/CxwTLktovTU" title="Trailer" allowfullscreen></iframe>
-    </div>
-  </div>
-</section>
-
-<!-- Sinopsis -->
-<section id="sinopsis" class="py-5 bg-light">
-  <div class="container">
-    <h2>Sinopsis</h2>
-    <p>Toy Story es una película animada que sigue la vida secreta de los juguetes cuando los humanos no están presentes. La historia se centra en Woody, un vaquero de juguete que ha sido el juguete favorito de Andy durante años. Su liderazgo en la habitación de juguetes se ve amenazado cuando Andy recibe un nuevo y moderno juguete de acción llamado Buzz Lightyear, quien cree ser un verdadero guardián espacial en lugar de un juguete. La rivalidad entre Woody y Buzz los lleva a una serie de desventuras cuando accidentalmente se pierden fuera de la casa de Andy. A medida que intentan regresar a salvo antes de que la familia se mude, los dos deben aprender a trabajar juntos y forjar una amistad inesperada.</p>
-
-    <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://tvazteca.brightspotcdn.com/dims4/default/14e49c2/2147483647/strip/true/crop/1201x683+0+0/resize/968x550!/format/jpg/quality/90/?url=http%3A%2F%2Ftv-azteca-brightspot.s3.amazonaws.com%2F93%2Fe6%2Ff84a6e0644c895f1d1e2190f7d62%2Ffiltran-la-posible-trama-de-toy-story-5-y-los-fans-mas-nostalgicos-se-entusiasman.jpeg" class="d-block img-fluid" alt="Imagen 1">
-        </div>
-        <div class="carousel-item">
-          <img src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/media/articles/68118/39a.jpg?h=06ac0d8c&itok=E4S-Nwew" class="d-block img-fluid" alt="Imagen 2">
-        </div>
-        <div class="carousel-item">
-          <img src="https://pics.filmaffinity.com/Toy_Story-297452030-large.jpg" class="d-block img-fluid" alt="Imagen 3">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-</section>
-
-<!-- Personajes -->
-<section id="personajes" class="py-5">
-  <div class="container">
-    <h2>Personajes</h2>
-
-    <!-- Woody -->
-    <div class="accordion" id="personajesAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="personaje1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Protagonista: Woody
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="personaje1" data-bs-parent="#personajesAccordion">
-          <div class="accordion-body">
-            <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20160811-32147-6ud4jd_8cfa875c.jpeg?region=0%2C0%2C1024%2C320" alt="John" class="img-fluid float-start me-3" style="max-width: 500px;">
-            <p>Woody es un muñeco vaquero de juguete con un carácter valiente y un sentido de liderazgo natural. Tiene un sombrero de vaquero y una camiseta con un estampado de estrellas, además de un distintivo pañuelo rojo. A lo largo de la película, Woody demuestra ser un amigo leal y protector, aunque su papel de líder se pone a prueba con la llegada de Buzz Lightyear. Su personalidad mezcla valentía con un toque de inseguridad, lo que lo convierte en un personaje muy querido y complejo.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Buzz lightyear -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="personaje2">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-            Protagonista: Buzz Lightyear
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="personaje1" data-bs-parent="#personajesAccordion">
-          <div class="accordion-body">
-            <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20160811-32147-1s3j7tx_5d4123b1.jpeg?region=0%2C0%2C1024%2C320" alt="John" class="img-fluid float-start me-3" style="max-width: 500px;">
-            <p>Buzz Lightyear es una figura de acción con temática espacial, conocida por su traje de astronauta blanco con detalles verdes y morados. Se presenta a sí mismo como un "guardia espacial" con habilidades especiales y un fuerte sentido del deber. Su característica más distintiva es su creencia inicial de que es un verdadero explorador del espacio en lugar de un simple juguete. A medida que avanza la historia, Buzz debe adaptarse a la realidad de su naturaleza como juguete y aprende a colaborar con Woody, su rival inicial. Su personalidad combina entusiasmo, confianza y un toque de ingenuidad.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Sid -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="personaje3">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-            Antagonista: Sid Phillips
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="personaje2" data-bs-parent="#personajesAccordion">
-          <div class="accordion-body">
-            <img src="https://tvazteca.brightspotcdn.com/dims4/default/0b65996/2147483647/strip/true/crop/598x314+0+13/resize/1200x630!/quality/90/?url=http%3A%2F%2Ftv-azteca-brightspot.s3.amazonaws.com%2F9e%2Fda%2F91426f6d4efc9e22404e3d2a4070%2Fsid-phillips-nueva.jpg" alt="Villano X" class="img-fluid float-start me-3" style="max-width: 300px;">
-            <p>Sid Phillips es el antagonista de Toy Story. Es un niño travieso y un poco sádico que disfruta desarmar y reconstruir juguetes de formas grotescas. Vive en la casa vecina de Andy y a menudo causa problemas a los juguetes que encuentra. Sid tiene una apariencia desaliñada con una camiseta de calaveras y un peinado desordenado. Aunque es un niño problemático, su carácter también refleja una mezcla de curiosidad y una falta de comprensión sobre los sentimientos de los juguetes.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Redes -->
-<section id="contacto" class="py-5 bg-light">
-  <div class="container text-center">
-    <h2>Redes Sociales</h2>
-    <p>Sigue la película en sus redes sociales oficiales.</p>
-
-    <div class="btn-group" role="group" aria-label="Redes Sociales">
-      <a href="https://www.facebook.com/PixarToyStory" class="btn btn-primary" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
-      <a href="https://x.com/toystory" class="btn btn-info" target="_blank"><i class="bi bi-twitter"></i> X</a>
-      <a href="https://www.instagram.com/toystory" class="btn btn-danger" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
-    </div>
-  </div>
-</section>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prácticas Desarrollo Web</title>
+    <link rel="stylesheet" href="Practica5/css/style.css" />
+  </head>
+  <body>
+    <h1>Prácticas Desarrollo Web</h1>
+    <ul>
+      <li><a href="Practica5/index.html">Práctica 5</a></li>
+    </ul>
+    <script type="module" src="Practica5/js/practica5.js"></script>
+  </body>
 </html>
